@@ -1,0 +1,226 @@
+@font-face {
+    src: url("../fonts/BeVietnamPro-Regular.ttf");
+    font-family: "vietnamregular";
+}
+
+header {
+    display: flex;
+    width: 85%;
+    max-width: 1216px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 24px;
+    font-family: "vietnamregular";
+}
+
+nav {
+    display: flex;
+    gap: 40px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-family: "vietnamregular";
+}
+
+.section1 {
+    display: flex;
+    width: 50%;
+    max-width: 1216px;
+    margin: 0 auto;
+    padding-top: 160px;
+    align-items: flex-start;
+    padding-bottom: 160px;
+    font-family: "vietnamregular";
+}
+
+.section1 img {
+    width: 40px;
+    margin-right: 16px;
+    margin-top: 8px;
+}
+
+.section1 p, .section1 h2 {
+    font-size: 40px;
+}
+
+.section1 p {
+    width: 400px;
+    font-family: "vietnamRegular";
+    font-weight: bold;
+}
+
+.section1 h2 {
+    width: 600px;
+    margin-left: 160px;
+    font-family: "vietnamregular";
+}
+
+.aboutme {
+    font-family: "vietnamregular";
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.masinfo {
+    display: flex;
+    width: 50%;
+    max-width: 1216px;
+    margin: 0 auto;
+    padding: 160px 0px;
+    align-items: flex-start;
+    align-content: space-between;
+    font-family: "vietnamregular";
+    
+}
+
+.masinfo img {
+    width: 200px;
+    align-content: center;
+    margin-left: 70px;
+}
+
+.masinfo p {
+    
+    margin-top: 50px;
+}
+.ux {
+    width: 50%;
+    max-width: 1216px;
+    margin: 0 auto;  
+    width: 600px;
+    margin-left: 160px;
+    font-family: "vietnamregular";
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 90px;
+}
+
+
+
+.infointro {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1280px;
+    margin: 0 auto;
+    gap: 60px;
+
+}
+
+.project {
+    width: 80%;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.project img {
+
+    object-fit: cover;
+    margin-right: 60px;
+}
+
+.project-text {
+    width: 100%;
+    font-family: "vietnamregular";
+    line-height: normal;
+}
+
+
+.project-text button {
+    margin-top: 60px;
+}
+
+.project-text h4 {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+footer {
+    font-family: "vietnamregular";
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.foottitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 24px;
+    line-height: 1.6
+}
+
+.footsection {
+
+    margin-bottom: 120px;
+    font-family: "vietnamregular";
+    display: flex;
+    justify-content: space-between;
+}
+
+.foottalk {
+    width: 204px;
+    line-height: 1.6
+}
+
+.footinfo {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.6
+}
+
+.socialbutton {
+    width: 470px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    border-radius: 50%;
+    border-color: black;
+    border-width: 1px;
+    border-style: dashed;
+    background-color: transparent;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: unset;
+
+}
+
+.foottitle h3:first-child {
+    width: 176px;
+}
+
+.foottitle h3 {
+    width: 50px;
+}
+
+.foottitle h3:last-child {
+    width: 192px;
+}
+
+.uxprojects {
+    margin-bottom: 70px;
+}
+
+.line {
+    width: 1000px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
